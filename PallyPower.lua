@@ -310,7 +310,7 @@ function PallyPower_UpdateUI()
       IsPally = 1
     end
     
-    if ((IsPally == 1) or (GetNumRaidMembers() > 0 and GetNumPartyMembers() > 0)) then
+    if ((IsPally == 1) and (GetNumRaidMembers() > 0 or GetNumPartyMembers() > 0)) then
         PallyPowerBuffBar:Show()
         PallyPowerBuffBarTitleText:SetText(format(PallyPower_BuffBarTitle, PP_Symbols));
         BuffNum = 1
