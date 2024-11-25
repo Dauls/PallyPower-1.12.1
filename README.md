@@ -1,10 +1,8 @@
-# PallyPower VanillaPlus
+# PallyPower for TurtleWoW
 
-How to install: Download the zip file and rename to PallyPower
+PallyPower version for TurtleWoW patch 1.17.2. Forked from [Dauls/PallyPower-1.12.1](https://github.com/Dauls/PallyPower-1.12.1) which in turn was forked from [CosminPOP/PallyPower](https://github.com/CosminPOP/PallyPower).
 
-Changes:
-- Included an option to change between Regular Blessings and Greater Blessings.
-- Shows the buff frame when solo
-- Included Pet in the buff table
-- Show the max rank of each blessing each paladin has available + if they have talents that buff the blessing (specific to v+)
-- Show the correct duration to each blessing based on v+ duration
+## Changes
+
+- Increase duration to 10/30 minutes for regular/greater blessings
+- Only show PallyPower frame if in a group or raid
